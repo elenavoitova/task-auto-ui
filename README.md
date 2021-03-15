@@ -1,4 +1,4 @@
-## Selenium WebdriverJS & Mocha Template with Page Object Model
+## Selenium WebdriverJS & Mocha with Page Object Model
 
 
 
