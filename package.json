@@ -1,0 +1,30 @@
+{
+  "name": "com.tech.selenium",
+  "version": "1.0.0",
+  "description": "Selenium WebdriverJS Mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha --require @babel/register --reporter mochawesome --reporter-options autoOpen=true --timeout 60000 tests"
+  },
+  "author": "elena.voitova@playtech.com",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^88",
+    "edgedriver": "^4.17134.1",
+    "geckodriver": "^1.19.1",
+    "iedriver": "^3.14.2",
+    "mocha": "^7.1.2",
+    "mochawesome": "^6.2.2",
+    "operadriver": "^1.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
+    "@babel/runtime": "^7.9.2"
+  }
+}
